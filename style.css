@@ -1,0 +1,260 @@
+body{
+    font-family:'Mochiy Pop P One',sans-serif;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#nav-bar{
+    background-color:  rgb(36, 35, 35);
+    font-family:'Mochiy Pop P One';
+    box-sizing: border-box;
+    height:2.7rem;
+    width:100%;
+    color:white;
+    padding-top:10px;
+    padding-left:20px;
+    font-size:1.2rem;
+    font-weight: 300;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar a{
+    color:white;
+    text-decoration: none;
+}
+
+#nav-bar i{
+    margin-right:4px;
+}
+
+#nav-bar div{ 
+   margin-left:2px;
+   margin-right:5rem;
+}
+
+#nav-bar #heading{
+    margin-top:-4px;
+    font-size:1.7rem;
+    font-weight:800;
+}
+
+#search-div{
+    display: flex;
+    height:1.6rem;
+    color:white;
+    border-radius: 12.5px;
+}
+
+#search-input{
+    width:20rem;
+    padding-left:12px;
+    color:black;
+    border-radius: 12.5px;
+    margin-right:2px;
+}
+
+#search-div i{
+    margin-top:3px;
+}
+
+#addNotes{
+    background-image: url("https://wallpaperaccess.com/full/5668725.jpg");
+    height:75vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin:0px auto;
+    opacity:0.8;
+    box-sizing: border-box;
+    padding-top:10vh;
+    padding-left:8vw;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column; 
+}
+
+#addNotes .heading{
+    font-size:2rem;
+    font-weight:800;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:1rem;
+}
+
+#addNotes textarea{
+    border-radius:17.5px;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+#add-notes-btn{
+   color:white;
+   background-color:black;
+   height:2rem;
+   width:6rem;
+   font-size:1.2rem;
+   font-weight:600;
+   font-family:'Courier New', Courier, monospace;
+   margin-top:1rem;
+   border-radius:17.5px;
+   cursor: pointer;
+}
+
+#todos{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+#todos-div{
+    font-family:'Mochiy Pop P One';
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#e0e0eb;
+    color:black;
+    flex-direction:column;
+    font-size:1.2rem;
+    align-items: center;
+    padding-left:10rem;
+    padding-right:10rem;
+}
+
+#todos .heading{
+    font-size: 2.2rem;
+    color:black;
+    margin-bottom:0.5rem;
+    padding-left:43vw;
+    font-family:'Mochiy Pop P One';
+    font-weight:800 ;
+}
+
+.todo-btn1{
+    height:1.7rem;
+    width:auto;
+    padding:4px 10px;
+    background-color:#9696a6;
+    border:0px;
+    color:white;
+    border-radius:10.5px;
+}
+
+.todo-btn2{
+    height:1.7rem;
+    width:auto;
+    padding:4px 10px;
+    background-color: #9696a6;
+    border:0px;
+    color:white;
+    border-radius:12.5px;
+}
+
+.showButton button{
+    cursor:pointer;
+}
+
+
+#editNotes{
+    margin:0px auto;
+    box-sizing: border-box;
+    padding-top:2vh;
+    padding-left:8vw;
+    z-index:2;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column; 
+}
+
+#editNotes .heading{
+    font-size:2rem;
+    font-weight:800;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:1rem;
+}
+
+#editNotes textarea{
+    border-radius:17.5px;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+#edit-notes-btn{
+   color:white;
+   background-color:black;
+   height:2rem;
+   width:6rem;
+   font-size:1.2rem;
+   font-weight:600;
+   font-family:'Courier New', Courier, monospace;
+   margin-top:1rem;
+   border-radius:17.5px;
+}
+
+
+/* Important Section */
+#importants{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+#imps-div{
+    font-family:'Mochiy Pop P One';
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#e0e0eb;
+    color:black;
+    flex-direction:column;
+    font-size:1.2rem;
+    align-items: center;
+    padding-left:10rem;
+    padding-right:10rem;
+}
+
+#importants .heading{
+    font-size: 2.2rem;
+    color:black;
+    margin-bottom:0.5rem;
+    padding-left:40vw;
+    font-family:'Mochiy Pop P One';
+    font-weight:800 ;
+}
+
+/* Completed Section */
+#completed{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+#comp-div{
+    font-family:'Mochiy Pop P One';
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#e0e0eb;
+    color:black;
+    flex-direction:column;
+    font-size:1.2rem;
+    align-items: center;
+    padding-left:10rem;
+    padding-right:10rem;
+}
+
+#completed .heading{
+    font-size: 2.2rem;
+    color:black;
+    margin-bottom:0.5rem;
+    padding-left:42vw;
+    font-family:'Mochiy Pop P One';
+    font-weight:800 ;
+}
+
+.comp-del-btn{
+    height:1.7rem;
+    width:auto;
+    margin-top:10px;
+    padding:4px 10px;
+    background-color:#9696a6;
+    border:0px;
+    color:white;
+    border-radius:10.5px;
+    cursor:pointer;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    
+    <!-- Linking css: -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome Icon Links -->
+    
+    <script src="https://kit.fontawesome.com/d736cb9d1f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav id="nav-bar">
+        <div id="heading">
+            <i class="fa-solid fa-table-list"></i>
+             Magic Notes
+        </div>
+        <div id="search-div">
+             <input id="search-input" placeholder="Search">
+             <div> <i class="fa-solid fa-magnifying-glass"></i>  </div>
+        </div>
+        <div>
+            <a href="#"> Home </a> 
+        </div>
+        <div>
+            <a href="#todos"> Todos </a> 
+        </div>
+        <div>
+            <a href="#importants"> Important Notes </a>
+        </div>
+        <div>
+            <a href="#completed"> Tasks Completed  </a>
+        </div>
+    </nav>
+
+    <div id="success-error">
+    </div>
+    
+    <div id="addNotes">
+        <div>
+           <div class="heading"> Add Notes.. </div>
+           <div> Title </div>
+           <div> <textarea id="text-area-title" rows="3" cols="80"> </textarea> </div>
+           <div> Content </div> 
+           <div> <textarea id="text-area-content" rows="10" cols="80"> </textarea> </div>
+           <div> <button id="add-notes-btn"> Add </button> </div>
+        </div>
+    </div>
+
+    <div id="todos">
+        <div class="heading"> Todos.. </div>
+        <div id="todos-div">
+            <div id="no-add-note"> <p> Nothing to show!! <br> Use "Add a note" section to add notes  </p> </div>
+        </div>
+    </div>
+
+    <div id="importants">
+        <div class="heading"> Important Notes.. </div>
+        <div id="imps-div">  
+            <div id="no-imp-note"> <p> Nothing to show!! <br> "Mark notes as important" to show here.  </p> </div>
+        </div>
+    </div>
+    
+    <div id="completed">
+        <div class="heading"> Tasks Completed.. </div>
+        <div id="comp-div"> 
+            <div id="no-comp-note"> <p> Nothing to show!! <br> "Mark notes as completed" to show here.  </p> </div>
+         </div>
+    </div>
+
+
+    <!-- Linking javascript -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
